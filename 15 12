@@ -1,0 +1,20 @@
+1  var d = new Date();
+2  var day = d.getDay();
+3  var daymonth = d.getDate();
+4  var year = d.getFullYear();
+5  var hours = d.getHours();
+6  var millisecond = d.getmilliseconds();
+7  var minutes = d.getMINUTES();
+Var marks =prompt("enter marks");
+if(marks<=10){
+d.w.("Fail")
+}
+else if(marks>10 &marks<=20){
+    d.w.("pass with A")
+}
+else if(marks>20 & marks <=30){
+    d.w.("Pass with A+")
+}
+else{
+    d.w.("Invalid Input")
+}
